@@ -1,0 +1,128 @@
+@media (max-width: 1000px) {
+    .works__grid {
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+@media (max-width: 850px) {
+    .main__section {
+        background-size: cover;
+        background-position: -300px;
+    }
+    .content__text {
+        font-size: 38px;
+    }
+    .works__grid {
+        grid-template-columns: repeat(3, 200px);
+    }
+    header {
+        min-width: 75%;
+    }
+}
+@media (max-width: 690px) {
+    .works__grid {
+        grid-template-columns: repeat(3, 150px);
+    }
+    header {
+        min-width: 85%;
+    }
+}
+@media (max-width: 600px) {
+    .works__grid {
+        gap: 10px 10px;
+    }
+    .works__exapmles:hover {
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    header {
+        min-width: 85%;
+    }
+    .header__nav {
+        justify-content: flex-end;
+        gap: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .works__grid {
+        grid-template-columns: repeat(2, 200px);
+    }
+    .works__exapmles:hover {
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    header {
+        min-width: 90%;
+        margin-left: 30px;
+        padding: 0;
+    }
+    .header__nav {
+        gap: 20px;
+        padding: 10px;
+    }
+    .content__text {
+        max-width: 400px;
+    }
+    .seven._active {
+        transform: translate(0px, 0);
+        opacity: 1;
+        transition: all 1s ease 0.3s;
+    }
+    .eight._active {
+        transform: translate(0px, 0);
+        opacity: 1;
+        transition: all 1s ease 0s;
+    }
+}
+@media (max-width: 460px) {
+    .works__grid {
+        grid-template-columns: repeat(2, 170px);
+    }
+    .content__text {
+        max-width: 380px;
+    }
+    .footer__logo {
+        font-size: 12px;
+    }
+    .footer__text {
+        font-size: 8px;
+    }
+}
+@media (max-width: 424px) {
+    .header__nav span {
+        font-size: 9px;
+    }
+    header {
+        min-width: 80%;
+    }
+    .header__nav {
+        min-width: 200px;
+    }
+    .main__section {
+        gap: 100px;
+        min-height: 500px;
+    }
+}
+@media (max-width: 376px) {
+    .content__text {
+        max-width: 300px;
+        font-size: 30px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .header__nav {
+        gap: 10px;
+    }
+    .works__grid {
+        grid-template-columns: repeat(2, 150px);
+    }
+}
+@media (max-width: 320px) {
+    .content__text {
+        max-width: 300px;
+        font-size: 30px;
+    }
+    .works__grid {
+        grid-template-columns: repeat(2, 130px);
+    }
+}
